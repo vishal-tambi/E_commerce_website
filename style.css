@@ -1,0 +1,338 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+/* navbar section start from here */
+.navbar {
+    height: 4.5vw;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+
+    height: 4vw;
+    width: 5vw;
+    border: 1px solid #8a4848;
+    /* Just to visualize the outer container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*make itmes center vertically*/
+
+}
+
+.logo {
+    background-image: url("/Images/logo.png");
+    background-size: cover;
+    height: 4vw;
+    width: 5vw;
+
+}
+
+
+.add-first {
+    color: rgba(0, 68, 255, 0.687);
+    font-size: 1.3vw;
+}
+
+.add-second {
+    font-size: 2ren;
+    margin-left: 2px;
+    font-size: 1vw;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+    font-size: 1.5vw;
+}
+
+.nav-search {
+    display: flex;
+    width: 40vw;
+    height: 2.6vw;
+    border-radius: 0px;
+}
+
+.search-select {
+    border-radius: 0px;
+    background-color: rgb(100, 93, 84);
+    font-size: 1vw;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.search-input {
+    width: 550px;
+    text-align: center;
+    font-size: 1rem;
+    margin-left: 0px;
+    border-radius: 0px;
+    margin-right: 0px;
+
+}
+
+.search-icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    background-color: rgba(100, 93, 84);
+    border-radius: 0px;
+}
+
+
+.nav-span {
+    font-size: 0.2rem;
+
+}
+
+.nav-second {
+    font-size: 0.83vw;
+    font-weight: 700;
+}
+
+.nav-signin{
+    font-size: 1vw;
+}
+
+.return-second {
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+.nav-span {
+    font-size: 0.5rem;
+}
+
+.nav-return{
+    font-size: 1vw;
+}
+
+.nav-cart{
+    font-size: 1vw;
+}
+.nav-cart i {
+    font-size: 2vw;
+}
+/* navbar section ends here */
+
+
+
+
+/* panel section start from here */
+.panel{
+    height: 3vw;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1vw;
+}
+.panel-ops p {
+    display: inline;
+    padding: 1.5vw;
+}
+
+.panel-ops{
+    width: 70%;
+    justify-content: space-evenly;
+     
+}
+/* panel section ends here */
+
+
+
+/* hero section start from here */
+.hero-section{
+    background-image: url("Images/v.jpg");
+    height: 40vw;
+    width: 98.8vw;
+    background-size: cover;   
+}
+
+.hero-message{
+    background-color: white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 1vw;
+    height: 4vw;
+    width: 80%;
+    margin-left: 10%;
+}
+.hero-message a{
+    font-size: 1vw;
+    
+}
+/* hero section ends here */
+
+
+
+.shop-section{
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-content{
+    font-size: 1vw;
+}
+
+.box{
+    border: 2px solid black;
+    height: 20vw;
+    width: 30vw;
+    margin-bottom: 20px;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    height: 18vw;
+    width: 28vw;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.box-content{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+
+.hero1-section{
+    background-image: url("Images/vl.jpg");
+    height: 40vw;
+    width: 98.8vw;
+    background-size: cover;   
+}
+
+/* this is for the sport section */
+.sport-img{
+    border: 1px solid black;
+    height: 70vw;
+    width: 98.5vw;
+    background-size: cover; 
+    margin-top: 1vw;
+}
+
+.sport-content{
+    font-size: 1vw;
+}
+
+.sport-shop-section{
+    margin-top: 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+    justify-content: space-evenly;
+}
+
+
+/* this is the fotter section */
+  /* Footer styles starts from here */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    width: 98.7vw;
+    height: 20vw;
+}
+
+/* Footer links styles */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+    /* Adding hover effect */
+}
+
+/* Hover effect for footer links */
+.footer a:hover {
+    color: #ffcc00;
+    /* Change the color on hover */
+}
+
+/* Additional styles for content */
+.social-icons {
+    margin-top: 100px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+    /* Adding hover effect */
+}
+
+.social-icons a:hover {
+    color: #ffcc00;
+    /* Change the color on hover */
+}
+
+.end-thing {
+    margin-top: 100px;
+}
+
+
+/* for tablets */
+@media (max-width: 768px) {
+    .navbar {
+        height: 6.5vh;
+    }
+    .panel {
+        height: 3vh;
+    }
+    .box-img{
+        width: 19vh;
+    }
+    .footer{
+        height: 30vh;
+    }
+
+}
+
+/* for phones */
+@media (max-width: 480px) {
+    .navbar {
+        height: 5vh;
+    }
+
+    .panel {
+        height: 2.5vh;
+    }
+    .box-img{
+        width: 10vh;
+    }
+    .box-img{
+        width: 27vw;
+    }
+    .footer{
+        height: 30vh;
+    }
+
+}
+
+
+
+
